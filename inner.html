@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logoHeader">
+            <div class="logo1">
+     
+        <img src="../images/logo.png" alt="Logo" style="float: left"/>
+              <!-- Logo created using https://https://hatchful.shopify.com/ -->
+              </div>
+              <div><h2 style="font-size: 24px;"><br>Coffe Shop - Laura Lopez llopezpuente1555@conestogac.on.ca</h2>
+            </div> 
+            </div>
+            <div style="clear: both;"></div>
+    </header> 
+    <nav>
+        <!-- First level UL for the main -->
+        <ul>
+            <li>
+                <a href="order.html">Order</a>
+                <!-- Second level UL for the sub menu -->
+                <ul>
+                    <li><a href="inner.html">Hot Coffees</li></a>
+                    <li><a href="inner.html">Hot Teas</li></a>
+                    <li><a href="inner.html">Hot Drinks</li></a>
+                    <li><a href="inner.html">Frappe Coffees</li></a>
+                </ul>
+            </li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="inner.html">Locations</a></li>
+            <li><a href="inner.html">Rewards</a></li>
+            <li><a href="inner.html">Contact</a></li>
+        </ul>
+    </nav>   
+    <main>
+        <div class="hero">
+            <img src="images/pexels-lilartsy-3278765-1.jpg" alt="Opened book">
+            <!--Lilartsy. (2019, November 24). Opened book [Photo]. Pexels. https://www.pexels.com/photo/opened-book-3278765/--> 
+            <div class="herotext">
+                <h2>The Best moment for a Coffee</h2> 
+            </div>
+        </div>
+        <div style="clear: both;"></div>
+        <div class="gallery">
+            <h2>A different way of enjoy your Beverages!</h2>
+            <div class="photos">
+                <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio praesentium perspiciatis earum ipsam repudiandae. Eaque ut omnis adipisci sed alias, voluptas libero culpa explicabo, non sapiente ad, similique unde expedita. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis officiis quo vel rerum quisquam recusandae nisi odit nobis pariatur rem culpa quibusdam corrupti iusto quas velit, iste cum earum adipisci? Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quod commodi ipsum obcaecati. Natus tenetur ducimus, cupiditate eveniet officiis quos illum sunt deserunt rem deleniti! Alias esse ducimus blanditiis deleniti?</p>
+            </div>
+                <div>
+                    <video width="500" height="300" autoplay controls
+                    poster="videos/poster-coffee.png" src="videos/video.mp4">
+                    </video>
+                    <!-- K. [Pexels]. (2019, September 4). Pouring hot water in a coffee filter cup [Video]. Pexels. https://www.pexels.com/video/pouring-hot-water-in-a-coffee-filter-cup-2853793/ -->
+                    
+                </div>
+            </div>
+        </div>
+        <div style="clear: both;"></div>
+        <div>
+            <!--data https://www150.statcan.gc.ca/n1/pub/82-003-x/2008004/article/10716/t/6500247-eng.htm-->
+            <h2>Our datas!</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Women 19-30</th>
+                        <th>Women 31-50</th>
+                        <th>Women 51-70</th>
+                        <th>Women 71-older</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Water</td>
+                        <td>1,000</td>
+                        <td>1,065</td>
+                        <td>840</td>
+                        <td>654</td>
+                    </tr>
+                    <tr>
+                        <td>Coffee</td>
+                        <td>183</td>
+                        <td>375</td>
+                        <td>364</td>
+                        <td>270</td>
+                    </tr>
+                    <tr>
+                        <td>Tea</td>
+                        <td>136</td>
+                        <td>178</td>
+                        <td>227</td>
+                        <td>262</td>
+                    </tr>
+                    <tr>
+                        <td>Milk</td>
+                        <td>178</td>
+                        <td>154</td>
+                        <td>120</td>
+                        <td>136</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+        <div style="clear: both;"></div>
+        <div>
+            <h2>Only some questions to complete ypur order:</h2>
+
+            <form action="process-info.html" method="GET"> 
+                <div class="left_section">              
+                    <div class="field_wrapper">
+                        <label for="namec"><b>Name:</b></label>
+                        <input type="text" autofocus tabindex="1" id="namec" name="namec">
+                    </div>
+                    <div class="field_wrapper">
+                        <label for="emailc"><b>Email:</b></label>
+                        <input type="text" tabindex="2" id="emailc" name="emailc">
+                    </div>
+                    <div class="field_wrapper">
+                        <label for="typesCoffee"><b>Your Coffee:</b></label>
+                        <!-- <input type="text" tabindex="5" id="ubook" name="ubook"> -->
+                        <select name="typesCoffee"  id="typesCoffee">
+                            <optgroup label="Roast">
+                                <option value="dark">Dark</option>
+                                <option value="medium">Medium</option>
+                                <option value="light">Light</option>
+                            </optgroup>
+                            <optgroup label="Types">
+                                <option value="french">French</option>
+                                <option value="italian">Italian</option>
+                                <option value="turkish">Turkish</option>
+                            </optgroup>
+                        </select>
+                    </div>
+                    <br>
+                    <div class="recurrence_wrapper">
+                        <label for="comments"><b>Comments:</b></label>
+                        <br>
+                        <textarea id="comments"  name="comments" rows="4" cols="40" style="width: 100%; height: 100px;">Are we forgetting something?</textarea>
+                    </div>
+                    <br>
+                    <div class="field_wrapper">
+                        <label for="coffeeComplements"><b>Do you want some of this?:</b></label><br>
+                        <label for="coffeeComplements">Sugar:</label>
+                        <input type="checkbox" name="sugar" id="sugar" value="Agreed">
+                        <label for="coffeeComplements">Milk</label>
+                        <input type="checkbox" name="milk" id="milk" value="Agreed">
+                        <label for="coffeeComplements">Cream</label>
+                        <input type="checkbox" name="cream" id="cream" value="Agreed">
+                    </div>
+                    <br>
+                    <div class="recurrence_wrapper">    
+                            <legend><b>And your coffe today is?</b></legend>
+                            <br>
+                            <div class="radio_wrapper">
+                                <input type="radio" name="coffe_type" id="to_here" value="To here">
+                                <label for="to_here">To here</label>
+                            </div>
+                            <div class="radio_wrapper">
+                                <input type="radio" name="coffe_type" id="to_go" value="To go">
+                                <label for="to_go">To go</label>
+                            </div>
+                    </div>
+                    <br>
+          
+                    <div class="field_wrapper">
+                        <button class="btnForm" type="reset" value="Reset">Reset</button>
+                        <button  class="btnForm"  type="submit" value="Submit">Submit</button>
+                    </div>
+
+                </div>
+
+            </form>
+        </div>
+        <div style="clear: both;"></div>
+        <br>
+
+
+    </main>
+    
+    <footer>
+        <div class="menutabla">  
+                <!-- First level UL only for the footer -->
+                <dl>
+                    <dt>Coffee</dt>
+                    <dt><a href="inner.html">Black</a></dt>
+                    <dt><a href="inner.html">Medium</a></dt>
+                    <dt><a href="inner.html">Soft</a></dt>
+                </dl>        
+                <dl>
+                    <dt>Tea</dt>
+                    <dt><a href="inner.html">Chai</a></dt>
+                    <dt><a href="inner.html">Green</a></dt>
+                    <dt><a href="inner.html">Ginsen</a></dt>
+                </dl>
+                <dl>
+                    <dt>Frappe</dt>
+                    <dt><a href="inner.html">Mocca</a></dt>
+                    <dt><a href="inner.html">Chocolate</a></dt>
+                    <dt><a href="inner.html">Vanilla</a></dt>
+                </dl>
+        </div>
+        &copy; Copyright  Laura Lopez llopezpuente1555@conestogac.on.ca
+    </footer>
+</body>
+</html>
+
+
+
